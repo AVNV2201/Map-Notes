@@ -45,7 +45,7 @@ public class MapNotesEditor extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent1 = new Intent(getApplicationContext(), MapsActivity.class) ;
-                intent.putExtra("id",noteId) ;
+                intent1.putExtra("id",noteId) ;
                 startActivity(intent1);
             }
         });
